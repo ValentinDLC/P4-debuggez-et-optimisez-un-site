@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Photographe Nina Carducci" />
     <meta name="keywords" content="photographie, galerie, album" />
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" defer />
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" async />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,8 +21,7 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous" defer
     ></script>
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/scripts.js"></script>
+    
     <!--Schema.org-->
 	<script type="application/ld+json">
 		{
@@ -74,6 +73,8 @@
 	<meta name="twitter:url" content="https://ninacarducci.github.io/">
   </head>
   <body>
+    <script src="./assets/maugallery.js"></script>
+    <script src="./assets/scripts.js"></script>
     <header class="top-header">
       <h1 class="name">Nina Carducci</h1>
       <nav class="nav" aria-label="Navigation principale">
@@ -135,14 +136,14 @@
             </figure>
             <figure class="carousel-item">
               <img
-                src="./assets/images/slider/photo d'un public en concert.webp"
+                src="./assets/images/slider/photo d'un public en concert.webp" loading="lazy"
                 class="d-block w-100"
                 alt="Photo d'un public en concert" 
               />
             </figure>
             <figure class="carousel-item">
               <img
-                src="./assets/images/slider/Photo de mariage d'un couple qui danse.webp"
+                src="./assets/images/slider/Photo de mariage d'un couple qui danse.webp" loading="lazy"
                 class="d-block w-100"
                 alt="Photo de mariage d'un couple qui danse durant leur mariage" 
               />
@@ -172,8 +173,8 @@
         <figure class="picture left" role="figure">
           <img
             src="./assets/images/Photo de la photographe Nina Carducci souriante.webp"
-            alt="Photo de la photographe Nina Carducci souriante devant une forêt de bambou" width="375"
-            height="375" 
+            alt="Photo de la photographe Nina Carducci souriante devant une forêt de bambou" width="558"
+            height="560" 
             aria-describedby="ariaDescriptionNina"
           />
 
@@ -324,8 +325,8 @@
 
 			</figure>
 			<figure class="picture right">
-				<img src="./assets/images/camera.webp" alt="image d'un appareil photo vintage" width="417"
-        height="417">
+				<img src="./assets/images/camera.webp" alt="image d'un appareil photo vintage" width="419"
+        height="420">
 			</figure>
 		</figure>
 	</footer>
